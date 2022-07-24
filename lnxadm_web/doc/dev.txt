@@ -1,0 +1,62 @@
+-- Quickstart
+mkdir react_antd
+cd react_antd
+yarn create react-app .
+yarn
+yarn start
+yarn build
+
+
+
+-- Dependencies
+// Create React App
+yarn global remove create-react-app
+yarn global add create-react-app
+https://github.com/facebook/create-react-app
+
+// React Router
+yarn add react-router-dom@6
+https://github.com/remix-run/react-router
+
+// Redux
+yarn add redux
+https://github.com/reduxjs/redux
+
+// Redux Toolkit
+yarn add @reduxjs/toolkit
+https://github.com/reduxjs/redux-toolkit
+
+// React Redux
+yarn add react-redux
+https://github.com/reduxjs/react-redux
+
+// Ant Design
+yarn add antd
+https://github.com/ant-design/ant-design
+
+// CRACO
+yarn add @craco/craco
+https://github.com/gsoft-inc/craco
+
+// CRACO Less
+yarn add craco-less
+https://github.com/DocSpring/craco-less
+
+// Axios
+yarn add axios
+https://github.com/axios/axios
+
+// HTTP Proxy Middleware
+yarn add http-proxy-middleware -D
+https://github.com/chimurai/http-proxy-middleware
+
+// Source Map Explorer
+yarn add source-map-explorer -D
+https://github.com/danvk/source-map-explorer
+https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+// React Dnd
+yarn add react-dnd
+yarn add react-dnd-html5-backend
+yarn add immutability-helper
+https://github.com/react-dnd/react-dnd

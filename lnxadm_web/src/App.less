@@ -1,0 +1,43 @@
+@import '~antd/dist/antd.less';
+
+/*
+ * https://github.com/ant-design/ant-design-pro/blob/master/src/global.less
+ * https://github.com/arackaf/customize-cra#addlessloaderloaderoptions
+ */
+.ant-table {
+  width: 100%;
+  overflow-x: auto;
+  &-thead > tr,
+  &-tbody > tr {
+    > th,
+    > td {
+      white-space: pre;
+      > span {
+        display: block;
+      }
+    }
+  }
+}
+
+/*
+ * https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
+ * https://github.com/ant-design/ant-design/blob/master/components/style/color/colors.less
+ *
+ * @link-color = @primary-color = @blue-6 = @blue-base = #1890ff
+ * @link-hover-color = color(~`colorPalette('@{link-color}', 5) `) = #40a9ff
+ */
+.MenuItemAsLink {
+  color: @link-color !important;
+}
+.MenuItemAsLink:hover {
+  color: @link-hover-color !important;
+}
+
+/*
+ * // Sider Menu does not respect collapsedWidth prop #8601
+ * https://github.com/ant-design/ant-design/issues/8601
+ * // Collapsible sider is broken when collapsedWidth is specified #11422
+ * https://github.com/ant-design/ant-design/issues/11422
+ *
+ * @menu-collapsed-width: 48px;
+ */

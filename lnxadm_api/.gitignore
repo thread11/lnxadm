@@ -1,0 +1,9 @@
+/cms
+
+/data/lnxadm.db
+
+*.log
+
+/lnxadm
+
+/html/
